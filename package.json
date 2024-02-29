@@ -1,0 +1,20 @@
+{
+  "name": "asm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json",
+    "server": "json-server-auth --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

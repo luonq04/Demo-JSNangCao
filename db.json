@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "name": "luong",
+      "price": "12",
+      "descriptions": "12",
+      "id": "K855E9_"
+    },
+    {
+      "name": "asdasdasdd",
+      "price": "123123123",
+      "descriptions": "rrradasdasd",
+      "id": "Gj3ecSm"
+    },
+    {
+      "name": "adsadsad",
+      "price": "123",
+      "descriptions": "xsdfdsfsdf",
+      "id": "AZtibib"
+    },
+    {
+      "name": "asdsadas",
+      "price": "1231231",
+      "descriptions": "asdsadasdsa",
+      "id": "LMLq_mS"
+    }
+  ],
+  "users": [
+    {
+      "email": "thuytinh112244@gmail.com",
+      "password": "$2a$10$B58yh4EL.MOPzmeMdVWAUuv2RwBz/3LLX0itvWZCKZrzYBRiqBrMq",
+      "id": 1
+    },
+    {
+      "email": "thuytinh11as2244@gmail.com",
+      "password": "$2a$10$o47UrdLCXOJ1D2aUt9Dpx.5dsDyCvzYGCWS.4JWaI32D9F5TNg5pm",
+      "id": 2
+    },
+    {
+      "email": "luong@gmail.com",
+      "password": "$2a$10$FjBHpwtMezO4GytEuZZdBOIT2WYtyG5wRj7XNwr50AZif6qsAE6UO",
+      "id": 3
+    }
+  ]
+}

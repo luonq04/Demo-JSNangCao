@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+      .error {
+        display: none;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <h3 class="mb-3 mt-5 text-center">San pham</h3>
+        <a href="signup.html">Dang ki</a>
+        <a href="signin.html">Dang nhap</a>
+      </div>
+
+      <form class="mb-4 form">
+        <input type="hidden" class="id" />
+
+        <div class="form-group mb-4">
+          <label>Name</label>
+          <input type="text" class="form-control name" />
+          <small class="form-text text-danger error errorName"></small>
+        </div>
+
+        <div class="form-group mb-4">
+          <label>Price</label>
+          <input type="text" class="form-control price" />
+          <small class="form-text text-danger error errorPrice"></small>
+        </div>
+
+        <div class="form-group mb-4">
+          <label>Descriptions</label>
+          <textarea
+            class="descriptions form-control"
+            cols="15"
+            rows="10"
+          ></textarea>
+          <small class="form-text text-danger error"></small>
+        </div>
+
+        <button type="submit" class="btn btn-primary btnSubmit">Submit</button>
+      </form>
+
+      <table class="mt-4 table table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Descriptions</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
